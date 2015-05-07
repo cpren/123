@@ -169,8 +169,18 @@
                                                                                                       <block type="logic_compare" id="232" inline="true">
                                                                                                         <field name="OP">LT</field>
                                                                                                         <value name="A">
-                                                                                                          <block type="sensor_object" id="290">
-                                                                                                            <field name="OBJECT">LEFTFRONT</field>
+                                                                                                          <block type="logic_operation" id="304" inline="true">
+                                                                                                            <field name="OP">LOR</field>
+                                                                                                            <value name="A">
+                                                                                                              <block type="sensor_object" id="290">
+                                                                                                                <field name="OBJECT">LEFTFRONT</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <value name="B">
+                                                                                                              <block type="sensor_object" id="311">
+                                                                                                                <field name="OBJECT">RIGHTFRONT</field>
+                                                                                                              </block>
+                                                                                                            </value>
                                                                                                           </block>
                                                                                                         </value>
                                                                                                         <value name="B">
