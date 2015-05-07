@@ -1,1 +1,160 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="1" x="73" y="57">
+    <next>
+      <block type="oled_setcursor" id="2" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="3">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="4">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_drawtext" id="5">
+            <field name="TEXT">hi i'm jade bot</field>
+            <next>
+              <block type="robot_delay" id="6" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="7">
+                    <field name="NUM">2000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_cleardisplay" id="8">
+                    <next>
+                      <block type="oled_setcursor" id="9" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="10">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="11">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="12">
+                            <field name="TEXT">plz put your hand</field>
+                            <next>
+                              <block type="robot_delay" id="13" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="14">
+                                    <field name="NUM">1000</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_cleardisplay" id="15">
+                                    <next>
+                                      <block type="oled_setcursor" id="16" inline="true">
+                                        <value name="STARTX">
+                                          <block type="math_number" id="17">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <value name="STARTY">
+                                          <block type="math_number" id="18">
+                                            <field name="NUM">10</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="oled_drawtext" id="19">
+                                            <field name="TEXT">in the back of me</field>
+                                            <next>
+                                              <block type="robot_delay" id="20" inline="true">
+                                                <value name="DELAY">
+                                                  <block type="math_number" id="21">
+                                                    <field name="NUM">1000</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="oled_cleardisplay" id="22">
+                                                    <next>
+                                                      <block type="oled_setcursor" id="23" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="math_number" id="24">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="math_number" id="25">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="oled_drawtext" id="26">
+                                                            <field name="TEXT">good</field>
+                                                            <next>
+                                                              <block type="robot_delay" id="27" inline="true">
+                                                                <value name="DELAY">
+                                                                  <block type="math_number" id="28">
+                                                                    <field name="NUM">1000</field>
+                                                                  </block>
+                                                                </value>
+                                                                <next>
+                                                                  <block type="oled_cleardisplay" id="38">
+                                                                    <next>
+                                                                      <block type="oled_setcursor" id="29" inline="true">
+                                                                        <value name="STARTX">
+                                                                          <block type="math_number" id="72">
+                                                                            <field name="NUM">10</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="STARTY">
+                                                                          <block type="math_number" id="79">
+                                                                            <field name="NUM">10</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <next>
+                                                                          <block type="oled_drawtext" id="58">
+                                                                            <field name="TEXT">put your hand</field>
+                                                                            <next>
+                                                                              <block type="robot_delay" id="49" inline="true">
+                                                                                <value name="DELAY">
+                                                                                  <block type="math_number" id="65">
+                                                                                    <field name="NUM">1000</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
