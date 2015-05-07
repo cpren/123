@@ -99,138 +99,120 @@
                                                       </block>
                                                     </value>
                                                     <statement name="DO0">
-                                                      <block type="robot_delay" id="20" inline="true">
-                                                        <value name="DELAY">
-                                                          <block type="math_number" id="21">
-                                                            <field name="NUM">2000</field>
-                                                          </block>
-                                                        </value>
+                                                      <block type="oled_cleardisplay" id="22">
                                                         <next>
-                                                          <block type="oled_cleardisplay" id="22">
+                                                          <block type="oled_setcursor" id="23" inline="true">
+                                                            <value name="STARTX">
+                                                              <block type="math_number" id="24">
+                                                                <field name="NUM">10</field>
+                                                              </block>
+                                                            </value>
+                                                            <value name="STARTY">
+                                                              <block type="math_number" id="25">
+                                                                <field name="NUM">10</field>
+                                                              </block>
+                                                            </value>
                                                             <next>
-                                                              <block type="oled_setcursor" id="23" inline="true">
-                                                                <value name="STARTX">
-                                                                  <block type="math_number" id="24">
-                                                                    <field name="NUM">10</field>
-                                                                  </block>
-                                                                </value>
-                                                                <value name="STARTY">
-                                                                  <block type="math_number" id="25">
-                                                                    <field name="NUM">10</field>
-                                                                  </block>
-                                                                </value>
+                                                              <block type="oled_drawtext" id="26">
+                                                                <field name="TEXT">good</field>
                                                                 <next>
-                                                                  <block type="oled_drawtext" id="26">
-                                                                    <field name="TEXT">good</field>
+                                                                  <block type="oled_cleardisplay" id="29">
                                                                     <next>
-                                                                      <block type="robot_delay" id="27" inline="true">
-                                                                        <value name="DELAY">
-                                                                          <block type="math_number" id="28">
-                                                                            <field name="NUM">1000</field>
+                                                                      <block type="oled_setcursor" id="30" inline="true">
+                                                                        <value name="STARTX">
+                                                                          <block type="math_number" id="31">
+                                                                            <field name="NUM">10</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <value name="STARTY">
+                                                                          <block type="math_number" id="32">
+                                                                            <field name="NUM">10</field>
                                                                           </block>
                                                                         </value>
                                                                         <next>
-                                                                          <block type="oled_cleardisplay" id="29">
+                                                                          <block type="oled_drawtext" id="33">
+                                                                            <field name="TEXT">put your hand</field>
                                                                             <next>
-                                                                              <block type="oled_setcursor" id="30" inline="true">
-                                                                                <value name="STARTX">
-                                                                                  <block type="math_number" id="31">
-                                                                                    <field name="NUM">10</field>
-                                                                                  </block>
-                                                                                </value>
-                                                                                <value name="STARTY">
-                                                                                  <block type="math_number" id="32">
-                                                                                    <field name="NUM">10</field>
+                                                                              <block type="robot_delay" id="34" inline="true">
+                                                                                <value name="DELAY">
+                                                                                  <block type="math_number" id="35">
+                                                                                    <field name="NUM">1000</field>
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="oled_drawtext" id="33">
-                                                                                    <field name="TEXT">put your hand</field>
+                                                                                  <block type="oled_cleardisplay" id="36">
                                                                                     <next>
-                                                                                      <block type="robot_delay" id="34" inline="true">
-                                                                                        <value name="DELAY">
-                                                                                          <block type="math_number" id="35">
-                                                                                            <field name="NUM">1000</field>
+                                                                                      <block type="oled_setcursor" id="37" inline="true">
+                                                                                        <value name="STARTX">
+                                                                                          <block type="math_number" id="38">
+                                                                                            <field name="NUM">10</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="STARTY">
+                                                                                          <block type="math_number" id="39">
+                                                                                            <field name="NUM">10</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <next>
-                                                                                          <block type="oled_cleardisplay" id="36">
+                                                                                          <block type="oled_drawtext" id="40">
+                                                                                            <field name="TEXT">in the front of me</field>
                                                                                             <next>
-                                                                                              <block type="oled_setcursor" id="37" inline="true">
-                                                                                                <value name="STARTX">
-                                                                                                  <block type="math_number" id="38">
-                                                                                                    <field name="NUM">10</field>
-                                                                                                  </block>
-                                                                                                </value>
-                                                                                                <value name="STARTY">
-                                                                                                  <block type="math_number" id="39">
-                                                                                                    <field name="NUM">10</field>
+                                                                                              <block type="robot_delay" id="41" inline="true">
+                                                                                                <value name="DELAY">
+                                                                                                  <block type="math_number" id="42">
+                                                                                                    <field name="NUM">2000</field>
                                                                                                   </block>
                                                                                                 </value>
                                                                                                 <next>
-                                                                                                  <block type="oled_drawtext" id="40">
-                                                                                                    <field name="TEXT">in the front of me</field>
+                                                                                                  <block type="oled_cleardisplay" id="98">
                                                                                                     <next>
-                                                                                                      <block type="robot_delay" id="41" inline="true">
-                                                                                                        <value name="DELAY">
-                                                                                                          <block type="math_number" id="42">
-                                                                                                            <field name="NUM">2000</field>
+                                                                                                      <block type="oled_setcursor" id="107" inline="true">
+                                                                                                        <value name="STARTX">
+                                                                                                          <block type="math_number" id="126">
+                                                                                                            <field name="NUM">10</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <value name="STARTY">
+                                                                                                          <block type="math_number" id="142">
+                                                                                                            <field name="NUM">10</field>
                                                                                                           </block>
                                                                                                         </value>
                                                                                                         <next>
-                                                                                                          <block type="oled_cleardisplay" id="98">
+                                                                                                          <block type="oled_drawtext" id="116">
+                                                                                                            <field name="TEXT">trolololololo</field>
                                                                                                             <next>
-                                                                                                              <block type="oled_setcursor" id="107" inline="true">
-                                                                                                                <value name="STARTX">
-                                                                                                                  <block type="math_number" id="126">
-                                                                                                                    <field name="NUM">10</field>
+                                                                                                              <block type="controls_repeat" id="43" inline="true">
+                                                                                                                <value name="TIMES">
+                                                                                                                  <block type="math_number" id="50">
+                                                                                                                    <field name="NUM">100</field>
                                                                                                                   </block>
                                                                                                                 </value>
-                                                                                                                <value name="STARTY">
-                                                                                                                  <block type="math_number" id="142">
-                                                                                                                    <field name="NUM">10</field>
-                                                                                                                  </block>
-                                                                                                                </value>
-                                                                                                                <next>
-                                                                                                                  <block type="oled_drawtext" id="116">
-                                                                                                                    <field name="TEXT">trolololololo</field>
+                                                                                                                <statement name="DO">
+                                                                                                                  <block type="movement_forward" id="60">
                                                                                                                     <next>
-                                                                                                                      <block type="controls_repeat" id="43" inline="true">
-                                                                                                                        <value name="TIMES">
-                                                                                                                          <block type="math_number" id="50">
+                                                                                                                      <block type="robot_delay" id="63" inline="true">
+                                                                                                                        <value name="DELAY">
+                                                                                                                          <block type="math_number" id="70">
                                                                                                                             <field name="NUM">100</field>
                                                                                                                           </block>
                                                                                                                         </value>
-                                                                                                                        <statement name="DO">
-                                                                                                                          <block type="movement_forward" id="60">
+                                                                                                                        <next>
+                                                                                                                          <block type="movement_reverse" id="80">
                                                                                                                             <next>
-                                                                                                                              <block type="robot_delay" id="63" inline="true">
+                                                                                                                              <block type="robot_delay" id="82" inline="true">
                                                                                                                                 <value name="DELAY">
-                                                                                                                                  <block type="math_number" id="70">
+                                                                                                                                  <block type="math_number" id="89">
                                                                                                                                     <field name="NUM">100</field>
                                                                                                                                   </block>
                                                                                                                                 </value>
-                                                                                                                                <next>
-                                                                                                                                  <block type="movement_reverse" id="80">
-                                                                                                                                    <next>
-                                                                                                                                      <block type="robot_delay" id="82" inline="true">
-                                                                                                                                        <value name="DELAY">
-                                                                                                                                          <block type="math_number" id="89">
-                                                                                                                                            <field name="NUM">100</field>
-                                                                                                                                          </block>
-                                                                                                                                        </value>
-                                                                                                                                      </block>
-                                                                                                                                    </next>
-                                                                                                                                  </block>
-                                                                                                                                </next>
                                                                                                                               </block>
                                                                                                                             </next>
                                                                                                                           </block>
-                                                                                                                        </statement>
+                                                                                                                        </next>
                                                                                                                       </block>
                                                                                                                     </next>
                                                                                                                   </block>
-                                                                                                                </next>
+                                                                                                                </statement>
                                                                                                               </block>
                                                                                                             </next>
                                                                                                           </block>
