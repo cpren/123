@@ -296,7 +296,4 @@
       </block>
     </next>
   </block>
-  <block type="sensor_object" id="274" x="-174" y="525">
-    <field name="OBJECT">LEFTFRONT</field>
-  </block>
 </xml>
