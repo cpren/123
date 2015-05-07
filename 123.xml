@@ -185,27 +185,7 @@
                                                         </next>
                                                       </block>
                                                     </statement>
-                                                  </block>
-                                                </statement>
-                                                <next>
-                                                  <block type="controls_whileUntil" id="341" inline="false">
-                                                    <field name="MODE">WHILE</field>
-                                                    <value name="NUMBER">
-                                                      <block type="logic_compare" id="357" inline="true">
-                                                        <field name="OP">EQ</field>
-                                                        <value name="A">
-                                                          <block type="math_number" id="370">
-                                                            <field name="NUM">1</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="B">
-                                                          <block type="math_number" id="377">
-                                                            <field name="NUM">1</field>
-                                                          </block>
-                                                        </value>
-                                                      </block>
-                                                    </value>
-                                                    <statement name="DO">
+                                                    <next>
                                                       <block type="controls_if" id="225" inline="false">
                                                         <value name="IF0">
                                                           <block type="logic_compare" id="232" inline="true">
@@ -278,9 +258,9 @@
                                                           </block>
                                                         </statement>
                                                       </block>
-                                                    </statement>
+                                                    </next>
                                                   </block>
-                                                </next>
+                                                </statement>
                                               </block>
                                             </next>
                                           </block>
