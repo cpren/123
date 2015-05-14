@@ -66,14 +66,29 @@
                                             <next>
                                               <block type="controls_whileUntil" id="73" inline="false">
                                                 <field name="MODE">WHILE</field>
+                                                <value name="NUMBER">
+                                                  <block type="logic_compare" id="101" inline="true">
+                                                    <field name="OP">EQ</field>
+                                                    <value name="A">
+                                                      <block type="math_number" id="114">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="B">
+                                                      <block type="math_number" id="124">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
                                                 <statement name="DO">
                                                   <block type="controls_if" id="20" inline="false">
                                                     <value name="IF0">
                                                       <block type="logic_compare" id="21" inline="true">
-                                                        <field name="OP">EQ</field>
+                                                        <field name="OP">LT</field>
                                                         <value name="A">
-                                                          <block type="math_number" id="80">
-                                                            <field name="NUM">10</field>
+                                                          <block type="sensor_object" id="93">
+                                                            <field name="OBJECT">REAR</field>
                                                           </block>
                                                         </value>
                                                         <value name="B">
