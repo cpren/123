@@ -68,10 +68,10 @@
                                                 <field name="MODE">WHILE</field>
                                                 <value name="NUMBER">
                                                   <block type="logic_compare" id="1020" inline="true">
-                                                    <field name="OP">LT</field>
+                                                    <field name="OP">EQ</field>
                                                     <value name="A">
-                                                      <block type="sensor_object" id="1021">
-                                                        <field name="OBJECT">REAR</field>
+                                                      <block type="math_number" id="1073">
+                                                        <field name="NUM">10</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
