@@ -68,15 +68,15 @@
                                                 <field name="MODE">WHILE</field>
                                                 <value name="NUMBER">
                                                   <block type="logic_compare" id="83" inline="true">
-                                                    <field name="OP">NEQ</field>
+                                                    <field name="OP">EQ</field>
                                                     <value name="A">
                                                       <block type="math_number" id="1120">
-                                                        <field name="NUM">1</field>
+                                                        <field name="NUM">10</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
                                                       <block type="math_number" id="90">
-                                                        <field name="NUM">2</field>
+                                                        <field name="NUM">10</field>
                                                       </block>
                                                     </value>
                                                   </block>
