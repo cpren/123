@@ -70,13 +70,13 @@
                                                   <block type="logic_compare" id="83" inline="true">
                                                     <field name="OP">LT</field>
                                                     <value name="A">
-                                                      <block type="sensor_object" id="76">
-                                                        <field name="OBJECT">REAR</field>
+                                                      <block type="sensor_light" id="1113">
+                                                        <field name="LIGHT">REAR</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
                                                       <block type="math_number" id="90">
-                                                        <field name="NUM">100</field>
+                                                        <field name="NUM">10</field>
                                                       </block>
                                                     </value>
                                                   </block>
