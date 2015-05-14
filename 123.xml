@@ -68,7 +68,7 @@
                                                 <field name="MODE">WHILE</field>
                                                 <value name="NUMBER">
                                                   <block type="logic_compare" id="862" inline="true">
-                                                    <field name="OP">GT</field>
+                                                    <field name="OP">LT</field>
                                                     <value name="A">
                                                       <block type="logic_operation" id="923" inline="true">
                                                         <field name="OP">LAND</field>
