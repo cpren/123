@@ -67,25 +67,15 @@
                                               <block type="controls_whileUntil" id="974" inline="false">
                                                 <field name="MODE">WHILE</field>
                                                 <value name="NUMBER">
-                                                  <block type="logic_compare" id="862" inline="true">
+                                                  <block type="logic_compare" id="1020" inline="true">
                                                     <field name="OP">LT</field>
                                                     <value name="A">
-                                                      <block type="logic_operation" id="923" inline="true">
-                                                        <field name="OP">LAND</field>
-                                                        <value name="A">
-                                                          <block type="sensor_object" id="930">
-                                                            <field name="OBJECT">LEFTFRONT</field>
-                                                          </block>
-                                                        </value>
-                                                        <value name="B">
-                                                          <block type="sensor_object" id="951">
-                                                            <field name="OBJECT">RIGHTFRONT</field>
-                                                          </block>
-                                                        </value>
+                                                      <block type="sensor_object" id="1021">
+                                                        <field name="OBJECT">REAR</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
-                                                      <block type="math_number" id="958">
+                                                      <block type="math_number" id="1022">
                                                         <field name="NUM">10</field>
                                                       </block>
                                                     </value>
