@@ -189,7 +189,7 @@
                                                                                                 </value>
                                                                                                 <next>
                                                                                                   <block type="oled_drawtext" id="358">
-                                                                                                    <field name="TEXT">in the back of me</field>
+                                                                                                    <field name="TEXT">in the front of me</field>
                                                                                                     <next>
                                                                                                       <block type="robot_delay" id="374" inline="true">
                                                                                                         <value name="DELAY">
